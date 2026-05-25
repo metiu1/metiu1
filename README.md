@@ -7,7 +7,7 @@
 Building open-source AI tools that run locally, privately, and for free.
 
 [![GitHub followers](https://img.shields.io/github/followers/metiu1?style=flat-square&label=Follow&color=black)](https://github.com/metiu1?tab=followers)
-[![YouTube](https://img.shields.io/badge/MetiuTek-YouTube-red?style=flat-square&logo=youtube)](https://youtube.com/@MetiuTek)
+[![YouTube](https://img.shields.io/badge/MetiuTek-YouTube-red?style=flat-square&logo=youtube)](https://youtube.com/@metiu-tek)
 
 </div>
 
@@ -67,7 +67,7 @@ Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → V
 
 <div align="center">
 
-[GitHub](https://github.com/metiu1) · [YouTube @MetiuTek](https://youtube.com/@MetiuTek)
+[GitHub](https://github.com/metiu1) · [YouTube @MetiuTek](https://youtube.com/@metiu-tek)
 
 **local ai · run llm locally · ollama alternative · self-hosted ai · offline ai · ai agent · youtube automation · stable diffusion local · whisper local · openai compatible · crewai local · multimodal ai · free ai tools · open source ai · go ai server · python ai**
 
