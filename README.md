@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Mattia — metiu1 👋
+# Hi, I'm Mattia — metiu 👋
 
 **Independent developer · Applied Sciences student · Digital Creator**
 
