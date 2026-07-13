@@ -43,6 +43,18 @@ Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → V
 
 ---
 
+## More projects
+
+| Project | What it does |
+|---|---|
+| [prune_lab](https://github.com/metiu1/prune_lab) | Compress large LLMs (MoE 200B+) on consumer hardware — structured depth + expert pruning and 4-bit quantization, zero-RAM GGUF export for llama.cpp / ollama. No retraining. **[BETA]** |
+| [vortelio-python](https://github.com/metiu1/vortelio-python) | Vortelio Python libraries — run LLMs, image, audio & video models offline on your own hardware. |
+| [rvm-web](https://github.com/metiu1/rvm-web) | AI video background removal web app — RobustVideoMatting + FastAPI, green-screen-free matting, installable via uv. |
+| [lithophane-studio](https://github.com/metiu1/lithophane-studio) | Lithophane generator web app — convert images to 3D-printable STL/OBJ with live preview, 100% client-side. |
+| [auto-ai-web](https://github.com/metiu1/auto-ai-web) | Claude & Gemini skill for AI code + image generation through web interfaces when official APIs are unavailable. |
+
+---
+
 ## Stack
 
 | | |
