@@ -4,7 +4,7 @@
 
 **Independent developer · Applied Sciences student · Digital Creator**
 
-Building open-source AI tools that run locally, privately, and for free.
+I build open-source AI tools that run on your own machine — no cloud, no API keys, no subscription.
 
 [![GitHub followers](https://img.shields.io/github/followers/metiu1?style=flat-square&label=Follow&color=black)](https://github.com/metiu1?tab=followers)
 [![YouTube](https://img.shields.io/badge/MetiuTek-YouTube-red?style=flat-square&logo=youtube)](https://youtube.com/@metiu-tek)
@@ -15,13 +15,13 @@ Building open-source AI tools that run locally, privately, and for free.
 
 ## What I build
 
-### [Vortelio](https://github.com/metiu1/Vortelio) — Local AI Platform
+### [Vortelio](https://github.com/metiu1/Vortelio) — run every AI model on your own PC
 
-The open-source alternative to Ollama + ComfyUI + Whisper UI + CrewAI cloud — in one binary.
+The open-source alternative to Ollama + ComfyUI + Whisper UI + CrewAI cloud, in one binary.
 
-Run **LLMs, Stable Diffusion, Whisper STT, TTS, video generation, 3D generation, and CrewAI multi-agent workflows** on your own machine. No cloud, no API keys, no subscriptions.
+Chat with an LLM, generate images, transcribe audio, synthesise speech, make video and 3D — all locally. No cloud, no API keys, no subscriptions.
 
-- OpenAI-compatible and Ollama-compatible API
+- OpenAI-compatible and Ollama-compatible API, so existing code just works
 - Go server + Python backends (diffusers, faster-whisper, kokoro)
 - Single binary, auto-detects CUDA / ROCm / Metal / CPU
 
@@ -29,17 +29,27 @@ Run **LLMs, Stable Diffusion, Whisper STT, TTS, video generation, 3D generation,
 
 ---
 
-### [TubeAssistant](https://github.com/metiu1/tube-assistant) — Autonomous YouTube AI Agent
+### [TubeAssistant](https://github.com/metiu1/tube-assistant) — a YouTube channel that runs itself
 
-AI agent that runs your YouTube channel 24/7. Zero human input, zero cost.
+An AI agent that does the whole job: picks the topic, writes the script, records the voice, edits the video, designs the thumbnail, uploads it. Every day, on its own. You control it from Telegram.
 
-Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → Video editing (FFmpeg) → AI thumbnail → YouTube upload. Controlled via Telegram.
-
-- 15 AI providers supported (OpenRouter, OpenAI, Gemini, Groq, DeepSeek, local Ollama...)
-- 100% free tier — \/month
-- Works on Windows, Linux, macOS
+- 15 AI providers supported (OpenRouter, OpenAI, Gemini, Groq, DeepSeek, local Ollama…)
+- Runs entirely on free tiers — $0/month
+- Windows, Linux, macOS
 
 `python` `ai-agent` `youtube-automation` `llm` `tts` `openrouter` `telegram-bot`
+
+---
+
+### [vedit](https://github.com/metiu1/editorvideo-ai) — tell an AI to edit your video
+
+A normal video editor — timeline, clips, cuts, transitions — except an AI can drive it for you. You describe the edit in plain words and watch the clips move, then take the mouse and fix anything you want.
+
+- 77 tools an agent can call — the same operations as the buttons, nothing agent-only
+- Works from Claude Code, Cursor or Codex via MCP: one line to install
+- Deterministic ffmpeg render, runs 100 % locally
+
+`python` `react` `ffmpeg` `mcp` `ai-agent` `video-editing` `nle`
 
 ---
 
@@ -47,11 +57,11 @@ Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → V
 
 | Project | What it does |
 |---|---|
-| [prune_lab](https://github.com/metiu1/prune_lab) | Compress large LLMs (MoE 200B+) on consumer hardware — structured depth + expert pruning and 4-bit quantization, zero-RAM GGUF export for llama.cpp / ollama. No retraining. **[BETA]** |
-| [vortelio-python](https://github.com/metiu1/vortelio-python) | Vortelio Python libraries — run LLMs, image, audio & video models offline on your own hardware. |
-| [rvm-web](https://github.com/metiu1/rvm-web) | AI video background removal web app — RobustVideoMatting + FastAPI, green-screen-free matting, installable via uv. |
-| [lithophane-studio](https://github.com/metiu1/lithophane-studio) | Lithophane generator web app — convert images to 3D-printable STL/OBJ with live preview, 100% client-side. |
-| [auto-ai-web](https://github.com/metiu1/auto-ai-web) | Claude & Gemini skill for AI code + image generation through web interfaces when official APIs are unavailable. |
+| [vortelio-python](https://github.com/metiu1/vortelio-python) | The Python SDK for Vortelio — chat, images, speech, video and 3D on your own machine, one line each. Zero dependencies, OpenAI/Ollama compatible. |
+| [rvm-web](https://github.com/metiu1/rvm-web) | Cut the background out of a video without a green screen, on your own PC. Real alpha transparency, plus AI upscaling and image/video editing. |
+| [lithophane-studio](https://github.com/metiu1/lithophane-studio) | Turn a photo into a 3D print that glows in backlight. Browser-only, nothing uploaded, exports print-ready STL/OBJ. |
+| [acf-agent-format](https://github.com/metiu1/acf-agent-format) | A compact replacement for JSON in an LLM's context window. Same data, 46 % fewer tokens, lossless roundtrip. |
+| [llm tier router](https://github.com/metiu1/classifier-query_premium-economy) | A ~1 ms classifier that sends easy prompts to the cheap model and hard ones to the expensive one. 97.6 % accuracy, 12k-example dataset included. |
 
 ---
 
@@ -59,9 +69,9 @@ Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → V
 
 | | |
 |---|---|
-| **Languages** | Go · Python · JavaScript |
-| **AI / ML** | llama.cpp · diffusers · faster-whisper · CrewAI · OpenRouter |
-| **Infra** | FFmpeg · Telegram Bot API · YouTube Data API v3 |
+| **Languages** | Go · Python · JavaScript / TypeScript |
+| **AI / ML** | llama.cpp · diffusers · faster-whisper · sentence-transformers · CrewAI · OpenRouter |
+| **Infra** | FFmpeg · MCP · Telegram Bot API · YouTube Data API v3 |
 | **APIs** | OpenAI-compatible · Ollama-compatible |
 
 ---
@@ -81,6 +91,6 @@ Analytics → Script (LLM) → Voice (Edge TTS) → Stock footage (Pexels) → V
 
 [GitHub](https://github.com/metiu1) · [YouTube @MetiuTek](https://youtube.com/@metiu-tek)
 
-**local ai · run llm locally · ollama alternative · self-hosted ai · offline ai · ai agent · youtube automation · stable diffusion local · whisper local · openai compatible · crewai local · multimodal ai · free ai tools · open source ai · go ai server · python ai**
+**local ai · run llm locally · ollama alternative · self-hosted ai · offline ai · ai agent · youtube automation · ai video editor · stable diffusion local · whisper local · openai compatible · mcp server · multimodal ai · free ai tools · open source ai**
 
 </div>
