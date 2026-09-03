@@ -61,7 +61,7 @@ A normal video editor — timeline, clips, cuts, transitions — except an AI ca
 | [rvm-web](https://github.com/metiu1/rvm-web) | Cut the background out of a video without a green screen, on your own PC. Real alpha transparency, plus AI upscaling and image/video editing. |
 | [lithophane-studio](https://github.com/metiu1/lithophane-studio) | Turn a photo into a 3D print that glows in backlight. Browser-only, nothing uploaded, exports print-ready STL/OBJ. |
 | [acf-agent-format](https://github.com/metiu1/acf-agent-format) | A compact replacement for JSON in an LLM's context window. Same data, 46 % fewer tokens, lossless roundtrip. |
-| [llm tier router](https://github.com/metiu1/classifier-query_premium-economy) | A ~1 ms classifier that sends easy prompts to the cheap model and hard ones to the expensive one. 97.6 % accuracy, 12k-example dataset included. |
+| [llm-tier-router](https://github.com/metiu1/llm-tier-router) | A ~1 ms classifier that sends easy prompts to the cheap model and hard ones to the expensive one. 97.6 % accuracy, 12k-example dataset included. |
 
 ---
 
