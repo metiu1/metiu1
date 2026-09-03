@@ -6,8 +6,11 @@
 
 I build open-source AI tools that run on your own machine — no cloud, no API keys, no subscription.
 
+[![Website](https://img.shields.io/badge/metiu.vercel.app-Website-111111?style=flat-square&logo=vercel&logoColor=white)](https://metiu.vercel.app)
 [![GitHub followers](https://img.shields.io/github/followers/metiu1?style=flat-square&label=Follow&color=black)](https://github.com/metiu1?tab=followers)
 [![YouTube](https://img.shields.io/badge/MetiuTek-YouTube-red?style=flat-square&logo=youtube)](https://youtube.com/@metiu-tek)
+
+**[metiu.vercel.app](https://metiu.vercel.app)** — projects, contact form, and a place to pitch me an idea.
 
 </div>
 
@@ -76,6 +79,21 @@ A normal video editor — timeline, clips, cuts, transitions — except an AI ca
 
 ---
 
+## Get in touch
+
+Everything you need to reach me is on **[metiu.vercel.app](https://metiu.vercel.app)**.
+
+- **Got an idea?** There is a *Pitch me something* form on the site — describe what you
+  have in mind and it lands straight in my inbox. Half-formed ideas are welcome; that is
+  what the form is for.
+- **Want to work together, or hire me?** Same place, contact section.
+- **Found a bug, or want a feature?** Open an issue on the repo itself — that is faster
+  than any form.
+
+I read everything. I am one person, so a reply may take a few days.
+
+---
+
 ## GitHub Stats
 
 <div align="center">
@@ -89,7 +107,7 @@ A normal video editor — timeline, clips, cuts, transitions — except an AI ca
 
 <div align="center">
 
-[GitHub](https://github.com/metiu1) · [YouTube @MetiuTek](https://youtube.com/@metiu-tek)
+[Website](https://metiu.vercel.app) · [GitHub](https://github.com/metiu1) · [YouTube @MetiuTek](https://youtube.com/@metiu-tek)
 
 **local ai · run llm locally · ollama alternative · self-hosted ai · offline ai · ai agent · youtube automation · ai video editor · stable diffusion local · whisper local · openai compatible · mcp server · multimodal ai · free ai tools · open source ai**
 
